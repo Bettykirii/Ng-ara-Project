@@ -1,0 +1,145 @@
+body{
+
+background-color: red;
+}
+
+
+
+
+header{
+	width: 100%;
+	background: #fff;
+	height: 80px;
+	padding: 0;
+	margin: 0;
+
+}
+ul{
+    margin-top:20px;
+   
+    list-style: none;
+    display: inline-block;
+    /*float: right;*/
+    margin-left: 450px;
+    /*background-color:red;*/
+}
+ul li{
+	list-style:none;
+	margin:0px;
+	/*padding:10px;*/
+	color: green;
+	display: inline;
+	/*padding: 10px 10px;*/
+	/*text-align: right;*/
+
+}
+ ul li a{
+	color:#4fbe6f;
+	text-decoration:none;
+	display: inline-block;
+	padding:10px 10px;
+}
+ul li a.hoover{
+	color:green;
+}
+ul li.active a{
+	color: black;
+}
+.img{
+	margin-top: 10px;
+}
+.background-image{
+	width: 100%;
+	height: 500px;
+	background: url(../images/house.png);
+}
+.opacity{
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	color: #fff;
+
+/*background-color: rgba( 81,199,111,0.5);
+*/
+background-color: rgba( 76,151,174,0.5);
+
+} 
+h1{
+	margin-top: 165px;
+}
+p{
+	font-size: 35px;
+}
+.content{
+	background-color: #4c97ae;
+	width: 100%;
+	height: 800px;
+
+}
+.contact{
+	background-color: pink;
+	width: 500px;
+	margin-top: 100px;
+	float: right;
+	margin-right:80px; 
+	height: 600px;
+}
+.service{
+	/*background-color: pink;*/
+	width: 500px;
+	margin-top: 100px;
+	float: left;
+	height: 600px;
+	margin-left: 80px;
+}
+.button {
+    background-color: #fff; 
+    border: none;
+    color: #4c97ae;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    color: #4c97ae;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    color: #4c97ae;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    resize: none;
+}
+
+
+label{
+	color:#fff; 
+}
+
+.footer{
+	background-color: green;
+	height: 150px;
+	width: 100%;
+}
+h2{
+	color: #fff;
+	text-align: center;
+}
+.service p{
+	font-size:20px;
+	color: #fff;
+}
